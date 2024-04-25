@@ -6,6 +6,6 @@ const router = new Router()
 
 router.get('/health', getHealth)
 
-router.post('/api/event/threshold/:time', event.threshold);
+router.post('/api/event/threshold/:time', event.threshold); //Post solicitado
 
 export default router
