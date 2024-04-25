@@ -10,7 +10,7 @@ export.threshold =(event_id, context, metadata, timestamp)=> {
     }
 
     data.forEach(element => { //revisa los elementos de data
-        if(element.incidents.some(incident => incident.metadata === metadata)){ //revisa esto por favor!!!!!!!!! 
+        if(element.incidents.some(incident => incident.metadata === metadata)){ 
             element.incidents.push[temp]
         }
 
